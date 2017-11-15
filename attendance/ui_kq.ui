@@ -24,17 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>路径：</string>
-    </property>
-   </widget>
-   <widget class="QTextEdit" name="textEdit_file_path">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>40</y>
-      <width>251</width>
-      <height>31</height>
-     </rect>
+     <string>文件：</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_import">
@@ -79,8 +69,8 @@
    <widget class="QLabel" name="label_result">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>140</y>
+      <x>20</x>
+      <y>150</y>
       <width>59</width>
       <height>16</height>
      </rect>
@@ -113,6 +103,32 @@
     </property>
     <property name="columnCount">
      <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_file_name">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>45</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>点击右侧导入按钮导入文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_export">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>143</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导出</string>
     </property>
    </widget>
   </widget>
