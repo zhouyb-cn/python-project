@@ -1,0 +1,7 @@
+**/__pycache__/*
+**/.idea/*
+/demo/
+/email/
+/weather/
+.DS_Store
+**/.DS_Store

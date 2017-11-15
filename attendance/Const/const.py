@@ -1,0 +1,2 @@
+SATURDAY = 5
+SUNDAY = 6
